@@ -19,8 +19,8 @@ function Products({handleProducts}) {
         <div className='flex justify-between items-center w-11/12 m-auto mb-7'>
          <FontAwesomeIcon icon={faChevronLeft} size="lg" style={{color: "#121212",}} className='sm:hidden'/>
          <p className='text-xl font-bold sm:hidden'>Shop</p>
-         <div className='hidden sm:flex justify-between items-center w-[90%] gap-5 lg:w-11/12'>
-           <div className='sm:flex justify-around gap-9 items-center lg:text-xl lg:gap-12'>
+         <div className='hidden sm:flex justify-between items-center w-11/12 gap-5 lg:w-11/12'>
+           <div className='sm:flex justify-around w-1/2 gap-9 items-center lg:text-xl lg:gap-12'>
             <p>HOME</p>
             <p className='text-white bg-black p-1 w-40 text-center'>MOTORCYCLE</p>
             <p>BIKES</p>

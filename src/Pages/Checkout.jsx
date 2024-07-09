@@ -16,12 +16,12 @@ function Checkout() {
       <FontAwesomeIcon icon={faChevronLeft} size="lg" style={{color: "#121212",}} className='sm:hidden'/>
     </Link>
     <p className='text-xl font-bold sm:hidden'>Checkout</p>
-    <div className='hidden sm:flex justify-between items-center w-11/12 gap-7 lg:w-11/12'>
-      <div className='sm:flex justify-around gap-9 items-center lg:text-xl lg:gap-12'>
-      <Link to={'/'}>
+    <div className='hidden sm:flex justify-between items-center w-11/12 gap-5 lg:w-11/12'>
+      <div className='sm:flex justify-around gap-9 w-1/2 items-center lg:text-xl lg:gap-12'>
        <p>HOME</p>
-      </Link>
-      <p className='text-white bg-black p-1 w-40 text-center'>MOTORCYCLE</p>
+       <Link to={'/'}>
+       <p>MOTORCYCLE</p>
+       </Link>
        <p>BIKES</p>
        <p>BRAND</p>
      </div>
@@ -71,7 +71,7 @@ function Checkout() {
 
       <div className='flex justify-between'>
         <div>
-          <div className='flex justify-between items-center mb-5'>
+          <div className='flex justify-between gap-1 items-center mb-5'>
             <input type="text" placeholder='Ladi-Akinyemi Kesioluwa' className='font-semibold bg-inherit outline-none border-b border-solid border-black p-1'/>
             <div className='flex justify-between items-center sm:hidden'>
               <img src={'images/Mastercard - png 0.png'} alt="mastercard" className='w-16'/>
