@@ -11,12 +11,12 @@ function Checkout() {
   return (
     <div className='bg-[#F4F4F4]'>
     <Header />
-    <div className='flex justify-between items-center w-11/12 m-auto mb-7'>
+    <div className='flex justify-between items-center w-11/12 lg:w-screen m-auto mb-7'>
     <Link to={'/cart'}>
       <FontAwesomeIcon icon={faChevronLeft} size="lg" style={{color: "#121212",}} className='sm:hidden'/>
     </Link>
     <p className='text-xl font-bold sm:hidden'>Checkout</p>
-    <div className='hidden sm:flex justify-between items-center w-11/12 gap-5 lg:w-11/12'>
+    <div className='hidden sm:flex justify-between items-center w-screen gap-5 lg:w-11/12'>
       <div className='sm:flex justify-around gap-9 w-1/2 items-center lg:text-xl lg:gap-12'>
        <p>HOME</p>
        <Link to={'/'}>

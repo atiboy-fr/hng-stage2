@@ -19,12 +19,12 @@ function Cart({ products }) {
   <div className="bg-[#F4F4F4]">
       <Header />
     <div className="w-11/12 m-auto">
-    <div className='flex gap-32 items-center mb-5 sm:gap-0'>
+    <div className='flex gap-32 items-center mb-5 sm:gap-0 lg:w-screen'>
       <Link to={'/'}>
          <FontAwesomeIcon icon={faChevronLeft} size="lg" style={{color: "#121212",}} className="sm:hidden"/>
       </Link>
       <p className='text-xl font-bold sm:hidden'>My Cart</p>
-    <div className='hidden sm:flex justify-between items-center w-11/12 gap-5 lg:w-11/12'>
+    <div className='hidden sm:flex justify-between items-center w-screen gap-5 lg:w-11/12'>
       <div className='sm:flex justify-around w-1/2 gap-9 items-center lg:text-xl lg:gap-12'>
        <p>HOME</p>
        <Link to={'/'}>
